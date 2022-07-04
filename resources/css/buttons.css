@@ -1,0 +1,60 @@
+.subbutton {
+    background-color: rgb(199, 3, 3);
+    color: blanchedalmond;
+    border: none;
+    height: 35px;
+    width: 95px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+}
+
+
+    .subbutton:hover{
+        opacity: 0.5;
+}
+    .subbutton:active{
+        opacity: 0.15;
+
+    }
+
+    .login {
+        background-color: white;
+
+        border-color: rgb(7, 173, 173);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(7, 173, 173);
+        height: 24px;
+        width: 95;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 1s, color 0.2;
+    }
+
+    .login:hover{
+        background-color: rgb(7, 173, 173);
+        color: white;
+    }
+    .login:active{
+        opacity: 0.7;
+    }
+    .ttt {
+
+        background-color: rgb(95, 177, 248);
+        color: white;
+        border: none;
+        height: 25px;
+        width: 70px;
+        border-radius: 12px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 8px;
+        transition: box-shadow 0.15s;
+
+    }
+    .ttt:hover{
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
